@@ -19,13 +19,18 @@ if (tipo > 0 && edad > 0 && temperatura > 0 && oxigeno > 0 && dolor > 0 && preci
 {
     switch (tipo)
     {
-        case 1:
+        //se crea un limite por cada cosa, le agregamos 3 tipos de prioridades tales como maxima, media y minima
+        //Ya que el ennunciado no tiene limitantes ni algo minimo
+        case 1: //emergencia
             break;
-        case 2:
-            break;
+        case 2: //Consulta
+
+            break; //Pediatra
         case 3:
             break;
-        default:
+        case 4: // Traumotologia
+            break;
+        default://error
             break;
     }
 }
