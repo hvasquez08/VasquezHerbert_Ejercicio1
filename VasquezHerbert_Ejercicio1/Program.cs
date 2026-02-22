@@ -13,3 +13,11 @@ Console.WriteLine("Nivel de dolor(0-10)");
 int dolor = int.Parse(Console.ReadLine());
 Console.WriteLine("Ingrese presion sistolica");
 double precion  = double.Parse(Console.ReadLine());
+if (tipo > 0 && edad > 0 && temperatura > 0 && oxigeno > 0 && dolor > 0 && precion > 0)
+{
+
+}
+else
+{
+    Console.WriteLine("Dato erroneo");
+}
